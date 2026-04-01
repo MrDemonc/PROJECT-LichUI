@@ -23,6 +23,8 @@ jobs:
             -d parse_mode=HTML \
             --data-urlencode "text=🚀<b>NEW UPDATE [${{ env.DATE }}]</b>🚀
 
+            OneUI8.5 beta <b>SM-S711B</b>
+            
             Thank you for using <b>LichUI ❤</b>
 
             © 2025 MrDemonc" \
