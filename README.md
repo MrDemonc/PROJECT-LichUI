@@ -34,10 +34,9 @@ LichUI brings the best of Samsung and exclusive enhancements:
 | Secure Folder        | Secure storage for sensitive data                   | ✔️ Active|
 | OTA Updates          | Integrated automatic updates                        | ✔️ Active|
 | Multi-user           | Multiple user profiles supported                    | ✔️ Active|
-| [Patched GoodLock](https://github.com/corsicanu/goodlock_dump)     | Advanced UI customization tools included            | ✔️ Active|
-| Camera Mod           | Extra setting for camera and optimizations          | ✔️ Active|
-| NowBrief             | Personalized summary of the day                     | ✔️ Active|
-| LichUI Settings      | Extra settings                                      | ✔️ Active|
+| Camera Mod           | Enable gcam support                                 | ❌ Inactive|
+| NowBrief             | Personalized summary of the day                     | ❌ Inactive|
+| LichUI Settings      | Extra settings                                      | ❌ Inactive|
 | AODWallpaper         | Wallpaper in AOD                                    | ❌ Inactive|
 
 *And more: high-end animations, AOD clock transitions, adaptive color tone, adaptive refresh rate, extra brightness, picture remaster, object/shadow/reflection eraser, image clipper, Smart Suggestions widget, camera privacy toggle, debloated system, and more!*
