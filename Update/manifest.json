@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "builddate": 20260216,
-      "md5": "9b4af7f13360bfa3f544238790321bd2",
-      "patch": 20260101,
-      "size": 6552761387,
+      "builddate": 20260401,
+      "md5": "7cf923eea1fd20d361956ad0c3d03558",
+      "patch": 20260305,
+      "size": 7104508512,
       "bl": "XXUFEYI4",
-      "url": "https://sourceforge.net/projects/lichrom/files/SM-A546X/LichUI_5.1.4_a54x-signed.zip",
-      "version": "5.1.4"
+      "url": "https://pixeldrain.com/api/file/[id]?download",
+      "version": "5.2.5"
     }
   ]
 }
