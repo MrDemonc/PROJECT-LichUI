@@ -1,5 +1,8 @@
-Update OTA
-OneUI 8.0
-Base S901BXXSLGZA1
-January segurity patch
-Minor fixes
+Update Manual
+OneUI 8.5
+Base S711BXXUEGZC9
+March segurity patch
+Secure folder
+Samsung Healt
+AI minor no full
+minor fixes
