@@ -5,4 +5,6 @@ March segurity patch
 Secure folder
 Samsung Healt
 AI minor no full
+No Lich Settings for now
+Blur is disable
 minor fixes
