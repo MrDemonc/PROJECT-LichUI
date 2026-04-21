@@ -145,7 +145,3 @@ A huge thanks to the following contributors and supporters:
     </td>
   </tr>
 </table>
-
-<h1 align="center">
-  <img loading="lazy" src="readme-res/Footer.png"/>
-</h1>
