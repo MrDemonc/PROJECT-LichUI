@@ -1,13 +1,15 @@
 {
   "response": [
     {
-      "builddate": 20260401,
-      "md5": "7cf923eea1fd20d361956ad0c3d03558",
-      "patch": 20260305,
-      "size": 7104508512,
+      "device": "a54x",
+      "builddate": 20260514,
+      "md5": "02d75fc1cb4ff6afd13c35b7a7aa06b0",
+      "patch": 20260405,
+      "size": 7117300462,
       "bl": "XXUFEYI4",
       "url": "https://pixeldrain.com/api/file/[id]?download",
-      "version": "5.2.5"
+      "changelog": "https://raw.githubusercontent.com/MrDemonc/PROJECT-LichUI/refs/heads/Updates/changelog.txt",
+      "version": "5.2.7"
     }
   ]
 }
