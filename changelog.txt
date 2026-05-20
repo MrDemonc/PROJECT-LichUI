@@ -1,10 +1,7 @@
 Update Manual
 OneUI 8.5
-Base S711BXXUEGZC9
-March segurity patch
-Secure folder
-Samsung Healt
-AI minor no full
-No Lich Settings for now
-Blur is disable
-minor fixes
+Base S711BXXUFZZDH
+April segurity patch
+Update wallpaper from s25+ OneUI8.5
+Update sound system from a56
+Minor ajustement in build
