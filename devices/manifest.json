@@ -1,11 +1,11 @@
 {
   "response": [
     {
-      "device": "a54x",
-      "builddate": 20260514,
-      "md5": "02d75fc1cb4ff6afd13c35b7a7aa06b0",
+      "device": "a54x"
+      "builddate": 20260520,
+      "md5": "fe3933a0a37e144fa1017e13e1806bef",
       "patch": 20260405,
-      "size": 7117300462,
+      "size": 7117371471,
       "bl": "XXUFEYI4",
       "url": "https://pixeldrain.com/api/file/[id]?download",
       "changelog": "https://raw.githubusercontent.com/MrDemonc/PROJECT-LichUI/refs/heads/Updates/changelog.txt",
