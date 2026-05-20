@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=1200, initial-scale=0.5, maximum-scale=1.0, user-scalable=yes">
@@ -59,7 +60,7 @@
             max-width: 450px;
             margin: 16px auto;
             text-align: center;
-            position:static;
+            position: static;
             color: #856404;
         }
 
@@ -587,8 +588,13 @@
         }
 
         @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
 
         .changelog-list {
@@ -676,6 +682,7 @@
         }
     </style>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -702,11 +709,14 @@
         <section class="hero" id="inicio">
             <div class="container">
                 <div class="hero-gif">
-                    <img src="https://github.com/MrDemonc/PROJECT-LichUI/raw/main/readme-res/cat.gif" alt="LichUI Preview" class="lichui-gif">
+                    <img src="https://github.com/MrDemonc/PROJECT-LichUI/raw/main/readme-res/cat.gif"
+                        alt="LichUI Preview" class="lichui-gif">
                 </div>
                 <h1>What is LichUI?</h1>
-                <p>LichUI is a custom firmware currently in development for the Samsung Galaxy A54 5G. Built on the latest version of Samsung's One UI, it adds exclusive features and optimizations to deliver the best possible user experience.</p>
-                
+                <p>LichUI is a custom firmware currently in development for the Samsung Galaxy A54 5G. Built on the
+                    latest version of Samsung's One UI, it adds exclusive features and optimizations to deliver the best
+                    possible user experience.</p>
+
                 <div class="info-badges">
                     <span class="badge badge-size">
                         <span class="badge-label">SIZE</span>
@@ -721,12 +731,12 @@
                         <span class="badge-value">Loading...</span>
                     </span>
                 </div>
-                
+
                 <button class="btn btn-primary" onclick="downloadROM()">
                     Download
                 </button>
                 <a href="#descargas" class="btn btn-secondary">Add-ons</a>
-                
+
                 <div class="changelog-section">
                     <button class="btn btn-changelog" onclick="toggleChangelog()">
                         Changelog
@@ -765,7 +775,7 @@
                                     <span class="bootloader-value">Loading...</span>
                                 </span>
                             </div>
-                            
+
                             <div class="file-item">
                                 <div class="file-info">
                                     <span class="file-icon">📱</span>
@@ -777,13 +787,16 @@
                                 <button class="btn-download" onclick="downloadFile('SM-A546E', 'Recovery')">
                                     <span>Download</span>
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
-                            
+
                             <div class="file-item">
                                 <div class="file-info">
                                     <span class="file-icon">🔒</span>
@@ -795,13 +808,16 @@
                                 <button class="btn-download" onclick="downloadFile('SM-A546E', 'Vbmeta')">
                                     <span>Download</span>
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
-                            
+
                             <div class="file-item">
                                 <div class="file-info">
                                     <span class="file-icon">⚙️</span>
@@ -813,9 +829,12 @@
                                 <button class="btn-download" onclick="downloadFile('SM-A546E', 'Firmware')">
                                     <span>Download</span>
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
@@ -831,9 +850,12 @@
                                 <button class="btn-download" onclick="downloadFile('SM-A546E', 'Patch')">
                                     <span>Download</span>
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
@@ -853,7 +875,7 @@
                                     <span class="bootloader-value">Loading...</span>
                                 </span>
                             </div>
-                            
+
                             <div class="file-item">
                                 <div class="file-info">
                                     <span class="file-icon">📱</span>
@@ -865,13 +887,16 @@
                                 <button class="btn-download" onclick="downloadFile('SM-A546B', 'Recovery')">
                                     <span>Download</span>
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
-                            
+
                             <div class="file-item">
                                 <div class="file-info">
                                     <span class="file-icon">🔒</span>
@@ -883,13 +908,16 @@
                                 <button class="btn-download" onclick="downloadFile('SM-A546B', 'Vbmeta')">
                                     <span>Download</span>
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
-                            
+
                             <div class="file-item">
                                 <div class="file-info">
                                     <span class="file-icon">⚙️</span>
@@ -901,9 +929,12 @@
                                 <button class="btn-download" onclick="downloadFile('SM-A546B', 'Firmware')">
                                     <span>Download</span>
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
@@ -919,9 +950,12 @@
                                 <button class="btn-download" onclick="downloadFile('SM-A546B', 'Patch')">
                                     <span>Download</span>
                                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <polyline points="7,10 12,15 17,10" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <line x1="12" y1="15" x2="12" y2="3" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
                                 </button>
                             </div>
@@ -969,7 +1003,7 @@
         });
 
         // Efecto de scroll en el header
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const header = document.querySelector('.header');
             if (window.scrollY > 100) {
                 header.style.backgroundColor = 'rgba(246, 248, 250, 0.95)';
@@ -985,27 +1019,27 @@
             try {
                 // Mostrar notificación de inicio
                 showNotification(`🚀 Getting download link...`, 'info');
-                
+
                 // Obtener el enlace desde Gdrive.txt
                 const response = await fetch('https://raw.githubusercontent.com/MrDemonc/PROJECT-LichUI/refs/heads/main/Gdrive.txt');
-                
+
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
-                
+
                 const downloadUrl = await response.text();
                 console.log('Download URL from Gdrive.txt:', downloadUrl);
-                
+
                 // Mostrar notificación de éxito
                 showNotification(`🚀 Starting ROM download...`, 'success');
-                
+
                 // Crear elemento temporal para la descarga
                 const link = document.createElement('a');
                 link.href = downloadUrl.trim();
                 link.download = 'LichUI_ROM.zip';
                 link.target = '_blank';
                 link.click();
-                
+
             } catch (error) {
                 console.error('Error getting download link:', error);
                 showNotification(`❌ Error getting download link: ${error.message}`, 'error');
@@ -1018,13 +1052,13 @@
             const year = dateStr.substring(0, 4);
             const month = dateStr.substring(4, 6);
             const day = dateStr.substring(6, 8);
-            
-            const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
-                          'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-            
+
+            const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
             const monthIndex = parseInt(month) - 1;
             const monthName = months[monthIndex];
-            
+
             return `${day}-${monthName}`;
         }
 
@@ -1033,36 +1067,40 @@
             try {
                 console.log('Loading manifest data...');
                 const response = await fetch('https://raw.githubusercontent.com/MrDemonc/PROJECT-LichUI/refs/heads/Updates/devices/manifest.json');
-                
+
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
-                
+
                 const data = await response.json();
                 console.log('Manifest data loaded:', data);
-                
+
                 if (data.response && data.response.length > 0) {
-                    const manifest = data.response[0];
+                    // Guardar referencia global al manifest (primer entry)
+                    manifestData = data.response[0];
+                    const manifest = manifestData;
                     console.log('Manifest data:', manifest);
-                    
+
                     // Calcular tamaño en GB
                     const sizeInGB = (manifest.size / (1024 * 1024 * 1024)).toFixed(1);
                     console.log('Calculated size:', sizeInGB, 'GB');
-                    
+
                     // Formatear fecha
                     const formattedDate = formatBuildDate(manifest.builddate);
                     console.log('Formatted date:', formattedDate);
-                    
+
                     // Actualizar solo los valores en la interfaz
                     document.querySelector('.badge-size .badge-value').textContent = `${sizeInGB} GB`;
                     document.querySelector('.badge-version .badge-value').textContent = manifest.version;
                     document.querySelector('.badge-date .badge-value').textContent = formattedDate;
-                    
+
                     // Actualizar bootloaders
                     document.querySelector('.bootloader-e .bootloader-value').textContent = manifest.bl;
                     document.querySelector('.bootloader-b .bootloader-value').textContent = manifest.bl;
-                    
+
                     console.log('Data updated in interface');
+                    console.log('Device:', manifest.device);
+                    console.log('Changelog URL:', manifest.changelog);
                 } else {
                     console.error('No data found in manifest response');
                     showNotification('Error: Could not load manifest data', 'error');
@@ -1070,7 +1108,7 @@
             } catch (error) {
                 console.error('Error loading manifest:', error);
                 showNotification('Error loading manifest data', 'error');
-                
+
                 // Mostrar valores de error
                 document.querySelector('.badge-size .badge-value').textContent = 'Error';
                 document.querySelector('.badge-version .badge-value').textContent = 'Error';
@@ -1085,14 +1123,14 @@
             try {
                 console.log('Loading download links...');
                 const response = await fetch('https://raw.githubusercontent.com/MrDemonc/PROJECT-LichUI/refs/heads/main/Update/a54x/extras.json');
-                
+
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
-                
+
                 const data = await response.json();
                 console.log('Download links loaded:', data);
-                
+
                 if (data.response && data.response.length > 0) {
                     downloadLinks = data.response[0];
                     console.log('Download links set:', downloadLinks);
@@ -1105,7 +1143,7 @@
         }
 
         // Cargar datos al cargar la página
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             loadManifestData();
             loadDownloadLinks();
             loadSavedTheme();
@@ -1115,7 +1153,7 @@
         function forceDesktopMode() {
             // Detectar si es un dispositivo móvil
             const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-            
+
             if (isMobile) {
                 // Crear meta viewport si no existe
                 let viewport = document.querySelector('meta[name="viewport"]');
@@ -1124,10 +1162,10 @@
                     viewport.name = 'viewport';
                     document.head.appendChild(viewport);
                 }
-                
+
                 // Forzar ancho de escritorio y zoom
                 viewport.content = 'width=1200, initial-scale=0.5, maximum-scale=1.0, user-scalable=yes';
-                
+
                 // Agregar estilos adicionales para móviles
                 const style = document.createElement('style');
                 style.textContent = `
@@ -1140,20 +1178,20 @@
                     }
                 `;
                 document.head.appendChild(style);
-                
+
                 console.log('Desktop mode forced on mobile device');
             }
         }
 
         // Ejecutar al cargar la página
         forceDesktopMode();
-        
+
         // Función para toggle del tema
         function toggleTheme() {
             const body = document.body;
             const themeBtn = document.getElementById('themeBtn');
             const themeIcon = themeBtn.querySelector('.theme-icon');
-            
+
             if (currentTheme === 'light') {
                 // Cambiar a modo oscuro
                 body.setAttribute('data-theme', 'dark');
@@ -1168,7 +1206,7 @@
                 localStorage.setItem('theme', 'light');
             }
         }
-        
+
         // Cargar tema guardado
         function loadSavedTheme() {
             const savedTheme = localStorage.getItem('theme');
@@ -1184,22 +1222,25 @@
         // Variables globales para el changelog
         let changelogLoaded = false;
         let changelogOpen = false;
-        
+
         // Variables globales para los enlaces de descarga
         let downloadLinks = null;
-        
+
+        // Variable global para los datos del manifest
+        let manifestData = null;
+
         // Variables globales para el tema
         let currentTheme = 'light';
 
         // Función para toggle del changelog
         function toggleChangelog() {
             const content = document.getElementById('changelogContent');
-            
+
             changelogOpen = !changelogOpen;
-            
+
             if (changelogOpen) {
                 content.style.display = 'block';
-                
+
                 // Cargar changelog si no se ha cargado
                 if (!changelogLoaded) {
                     loadChangelog();
@@ -1212,23 +1253,28 @@
         // Función para cargar el changelog
         async function loadChangelog() {
             try {
-                console.log('Loading changelog...');
-                const response = await fetch('https://raw.githubusercontent.com/MrDemonc/PROJECT-LichUI/refs/heads/main/changelog.txt');
-                
+                // Usar la URL del manifest si está disponible, sino fallback a la rama main
+                const changelogUrl = (manifestData && manifestData.changelog)
+                    ? manifestData.changelog
+                    : 'https://raw.githubusercontent.com/MrDemonc/PROJECT-LichUI/refs/heads/main/changelog.txt';
+
+                console.log('Loading changelog from:', changelogUrl);
+                const response = await fetch(changelogUrl);
+
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
-                
+
                 const changelogText = await response.text();
                 console.log('Changelog loaded:', changelogText);
-                
+
                 // Parsear el changelog
                 const changelogItems = parseChangelog(changelogText);
-                
+
                 // Mostrar el changelog
                 displayChangelog(changelogItems);
                 changelogLoaded = true;
-                
+
             } catch (error) {
                 console.error('Error loading changelog:', error);
                 showChangelogError();
@@ -1239,13 +1285,13 @@
         function parseChangelog(text) {
             // Dividir por líneas y filtrar líneas vacías
             const lines = text.split('\n').filter(line => line.trim() !== '');
-            
+
             return lines.map(line => {
                 const trimmedLine = line.trim();
-                
+
                 // Determinar el tipo de cambio
                 let type = 'update';
-                
+
                 if (trimmedLine.toLowerCase().includes('fix')) {
                     type = 'fix';
                 } else if (trimmedLine.toLowerCase().includes('add') || trimmedLine.toLowerCase().includes('new')) {
@@ -1257,7 +1303,7 @@
                 } else if (trimmedLine.toLowerCase().includes('disable')) {
                     type = 'disable';
                 }
-                
+
                 return {
                     text: trimmedLine,
                     type: type
@@ -1269,20 +1315,20 @@
         function displayChangelog(items) {
             const loadingDiv = document.querySelector('.changelog-loading');
             const listDiv = document.getElementById('changelogList');
-            
+
             // Ocultar loading
             loadingDiv.style.display = 'none';
-            
+
             // Crear elementos del changelog
             listDiv.innerHTML = '';
-            
+
             items.forEach(item => {
                 const itemDiv = document.createElement('div');
                 itemDiv.className = 'changelog-item';
                 itemDiv.textContent = item.text;
                 listDiv.appendChild(itemDiv);
             });
-            
+
             // Mostrar la lista
             listDiv.style.display = 'block';
         }
@@ -1291,7 +1337,7 @@
         function showChangelogError() {
             const loadingDiv = document.querySelector('.changelog-loading');
             const listDiv = document.getElementById('changelogList');
-            
+
             loadingDiv.style.display = 'none';
             listDiv.innerHTML = `
                 <div class="changelog-item">
@@ -1362,13 +1408,13 @@
             link.href = downloadUrl;
             link.download = fileName;
             link.target = '_blank';
-            
+
             // Mostrar notificación
             showNotification(`Starting download of ${fileName}`, 'success');
-            
+
             // Iniciar descarga
             link.click();
-            
+
             console.log(`Downloading: ${fileName} from ${downloadUrl}`);
         }
 
@@ -1376,12 +1422,12 @@
         function showNotification(message, type = 'info') {
             // Crear elemento de notificación
             const notification = document.createElement('div');
-            
+
             let backgroundColor = '#656d76'; // Default
             if (type === 'success') backgroundColor = '#0969da';
             if (type === 'error') backgroundColor = '#dc3545';
             if (type === 'info') backgroundColor = '#17a2b8';
-            
+
             notification.style.cssText = `
                 position: fixed;
                 top: 20px;
@@ -1397,14 +1443,14 @@
                 transition: transform 0.3s ease;
             `;
             notification.textContent = message;
-            
+
             document.body.appendChild(notification);
-            
+
             // Animar entrada
             setTimeout(() => {
                 notification.style.transform = 'translateX(0)';
             }, 100);
-            
+
             // Remover después de 3 segundos
             setTimeout(() => {
                 notification.style.transform = 'translateX(100%)';
@@ -1415,4 +1461,5 @@
         }
     </script>
 </body>
+
 </html>
