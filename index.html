@@ -1032,7 +1032,7 @@
         async function loadManifestData() {
             try {
                 console.log('Loading manifest data...');
-                const response = await fetch('https://raw.githubusercontent.com/MrDemonc/PROJECT-LichUI/refs/heads/main/Update/manifest.json');
+                const response = await fetch('https://raw.githubusercontent.com/MrDemonc/PROJECT-LichUI/refs/heads/Updates/devices/manifest.json');
                 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
