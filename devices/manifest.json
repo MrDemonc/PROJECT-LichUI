@@ -1,7 +1,7 @@
 {
   "response": [
     {
-      "device": "a54x"
+      "device": "a54x",
       "builddate": 20260520,
       "md5": "fe3933a0a37e144fa1017e13e1806bef",
       "patch": 20260405,
