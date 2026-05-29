@@ -1,7 +1,5 @@
 Update Manual
 OneUI 8.5
-Base S711BXXUFZZDH
+Base S711BXXUFGZDP
 April segurity patch
-Update wallpaper from s25+ OneUI8.5
-Update sound system from a56
-Minor ajustement in build
+Update Stable Release
