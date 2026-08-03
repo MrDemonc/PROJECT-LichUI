@@ -1,5 +1,18 @@
 Update Manual
 OneUI 8.5
-Base S711BXXUFGZDP
-April segurity patch
-Update Stable Release
+Base S711BXXSGGZF2
+Update security patch
+Network speed indicator
+Pin auto confirm
+Real model version
+Fingerprint S animation
+Battery info
+OutDoor
+Dual messenger mod
+Slim camera mod
+Patch SecSettings for antpos now use value 16 from stock a54
+Semantic search
+Parcial dex - beta
+Creative Studio
+Now brief 
+Ocult EGY information in About Phone
